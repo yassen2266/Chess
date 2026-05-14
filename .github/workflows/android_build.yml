@@ -20,5 +20,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Chess-Game-APK
-          path: platforms/android/app/build/outputs/apk/release/*.apk
+          path: "**/*.apk"
 
